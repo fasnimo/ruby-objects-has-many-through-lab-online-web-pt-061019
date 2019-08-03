@@ -1,6 +1,5 @@
 class Patient
-  attr_acc
-  essor :name
+  attr_accessor :name
   @@all = []
   def initialize(name)
     @name = name
