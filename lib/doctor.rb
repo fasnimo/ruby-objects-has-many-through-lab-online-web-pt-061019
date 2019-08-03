@@ -3,8 +3,8 @@ class Doctor
   @@all = []
   def initialize(name)
     @name = name
-    @patients = patients
-    @appointments = appointments
+    # @patients = patients
+    # @appointments = appointments
     @@all << self
   end
 
