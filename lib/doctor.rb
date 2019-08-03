@@ -4,7 +4,7 @@ class Doctor
   def initialize(name, patient, appointments)
     @name = name
     @patient = patient
-    appointments = appointments
+    @appointments = appointments
     @@all << self
   end
 
